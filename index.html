@@ -47,7 +47,7 @@
     <section class="hero" id="about">
       <img
         src="assets/images/mason.JPG"
-        alt="jane-doe"
+        alt="Mason Adrales"
         loading="lazy"
         class="hero-img"
       />
@@ -67,11 +67,37 @@
       <h2>More About Me</h2>
       <p>
         I will graduate from Mizzou with 3 certificates that are provided from the College of Engineering;
-        Web and Mobile App Development, Cyber Security, and Information Systems. I have also been named to the Dean's High Honor Roll
+        <em>Web and Mobile App Development</em>, <em>Cyber Security</em>, and <em>Information Systems</em>. I have also been named to the <em>Dean's High Honor Roll</em>
         for 6/7 semesters while at Mizzou. I have served in leadership roles professionally and academically
         as I was a student manager for the Division of IT position I held and I served as the innaugural
-        secretary for the CyberTigers cyber security club at Mizzou.
+        secretary for the CyberTigers cyber security club at Mizzou. I have worked on multiple web proejcts including this website, my capstone project, and
+        an NFL team randomizer. I love developing websites and am pursuing work in front-end development because I feel that 
+        I can be an invaluable asset for a company with my technical skills. I also have worked in many cross-functional, multi-cultural teams
+        through the multiple internships I completed and even experienced daily standup meetings and agile development methodologies.
+        <br><br>
+        I am an avid soccer and football fan and I support <em>Juventus FC</em> and the <em>Chicago Bears</em> respectively. When I'm not developing or spending extra time to learn
+        new technologies, you can usually find me being active and outside. Whether its basketball, football, soccer, walking my dog, or riding my bike, I'm usually out enjoying the beautiful, yet chaotic, Missouri weather.
+        Speaking of my dog, here is a picture of the beautiful plot hound and blue heeler mix that my girlfriend Bailey and I adopted a few years back. His name is Waylon and he loves to play outside, meaning we spend 
+        a lot of our time together. I recently enjoyed learning how to become a home cook and have spent countless hours on YouTube to learn new techniques, dishes, and 
+        hacks to make meal prepping a great experience every week.
       </p>
+      <div>
+        <img 
+          src="assets/images/baileyandway1.jpg" 
+          alt="Bailey and Waylon"
+          class="pImg"
+        />
+        <img 
+            src="assets/images/evergy.JPG" 
+            alt="Evergy Plaza Topeka, KS"
+            class="midImage"
+        />
+        <img 
+            src="assets/images/usagame.JPG" 
+            alt="USA Soccer Game"
+            class="pImg"
+        />
+      </div>
     </section>
     <!-- Skills section -->
     <section class="skills" id="skills">
@@ -149,6 +175,7 @@
             This website serves as a randomizer for NFL teams. This was created for my roomates and I to have a quick and easy way 
             to randomize teams for a Madden tournament. The user is able to select random teams as many times as they like. Future improvements include
             being able to create playoff brackets and to exclude teams that have been selected.
+            <br><br>
           </p>
             <a href="https://infallible-bartik-3b9833.netlify.app/" target="_blank" class="project-link">Check it out!</a>
         </div>
@@ -159,7 +186,7 @@
       <h2>Get In Touch With Me</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xgerjbkw" method="POST">
+          <form id="contactForm" action="https://formspree.io/f/xgerjbkw" method="POST">
             <div class="form-control">
               <label for="name">Name</label>
               <input
@@ -201,6 +228,7 @@
               id="submit-btn"
               class="submit-btn"
             />
+            <button class="clear-btn" onclick="clearForm()">Clear</button>
           </form>
         </div>
       </div>

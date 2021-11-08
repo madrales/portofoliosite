@@ -97,15 +97,13 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
-  /* background-color: #023e8a;
-  border: 5px solid black; */
 }
 
 .hero img {
   height: 37.5rem;
   width: 37.5rem;
   border: 2px solid black;
-  border-radius: 360px;
+  border-radius: 30px;
   margin-top: var(--bottom-margin-2);
 }
 .bio {
@@ -136,6 +134,22 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+}
+.more-about .pImg {
+  height: 32.5rem;
+  width: 22.5rem;
+  border: 2px solid black;
+  margin-top: var(--bottom-margin-2);
+}
+.more-about .midImage {
+  height: 32.5rem;
+  width: 28.5rem;
+  border: 2px solid black;
+  margin-top: var(--bottom-margin-2);
+}
+.more-about div {
+  margin: auto;
+  text-align: center;
 }
 
 .skills {
@@ -275,7 +289,23 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
-
+.clear-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+.clear-btn:hover {
+  background-color: red;
+  border: 2px solid red;
+  cursor: pointer;
+  color: white;
+}
 .socials {
   display: flex;
   flex-direction: column;
@@ -390,4 +420,3 @@ footer {
     max-width: 17.75rem;
   }
 } 
-

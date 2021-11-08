@@ -23,3 +23,6 @@ navLink.forEach((link) =>
     ul.classList.remove("show");
   })
 );
+function clearForm(){
+  document.getElementById("contactForm").reset();
+}
